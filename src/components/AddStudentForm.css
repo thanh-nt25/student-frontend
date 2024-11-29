@@ -1,0 +1,76 @@
+/* Container for the Add Student Form */
+.add-student-form {
+    padding: 20px;
+}
+
+/* Form styling */
+.add-student-form form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+.add-student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form input fields */
+.form-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Form input hover and focus effects */
+.form-input:focus {
+    border-color: #4caf50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Container for buttons */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Submit button styling */
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Cancel button styling */
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effects */
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
